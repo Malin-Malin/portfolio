@@ -10,18 +10,25 @@
     <meta name="author" content="Malin Skrettingland">
     <title>Malin Skrettingland | Portfolio</title>
     <link rel="stylesheet" href="CSS/styles.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumar+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <img src="./image/ChatGPT Image 27. mai 2025, 20_58_57.png" alt="Malin Skrettingland Logo" class="logo" />
-        <h1>Malin Skrettingland</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <div style="position: relative; display: flex; align-items: center;">
+            </span>
+            <img src="./image/ChatGPT Image 27. mai 2025, 20_58_57.png" alt="Malin Skrettingland Logo" class="logo" />
+        </div>
+        <div class="header-content">
+            <h1>Malin Skrettingland</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
     </header>
     <main>
         <section id="about">
@@ -32,14 +39,14 @@
         </section>
         <section id="projects">
             <h2>Projects</h2>
-            <div class="projects">
+            <div class="projects projects-original">
                 <div class="project-card-wrapper">
                     <img class="arch-image" src="./image/Malin_Skrettingland_image3.jpg" alt="Personal Blog" />
                     <div class="project-card">
                         <h3>Personal Blog</h3>
                         <p>A modern, responsive blog platform built with HTML, CSS, and JavaScript. Features include
-                            dark
-                            mode, markdown support, and a clean reading experience.</p>
+                            dark mode, markdown support, and a clean reading experience.</p>
+                        <a class="project-link" href="#" target="_blank">View Project</a>
                     </div>
                 </div>
                 <div class="project-card-wrapper">
@@ -48,23 +55,158 @@
                         <h3>Portfolio Website</h3>
                         <p>This very site! Designed to showcase my skills, projects, and contact information in a clean,
                             professional layout.</p>
+                        <a class="project-link" href="#" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card-wrapper">
+                    <img class="arch-image" src="./image/Malin_Skrettingland_image1.jpg" alt="E-commerce Store" />
+                    <div class="project-card">
+                        <h3>E-commerce Store</h3>
+                        <p>A full-featured e-commerce website with product listings, shopping cart, and secure checkout.
+                            Built with React and styled-components for a seamless shopping experience.</p>
+                        <a class="project-link" href="#" target="_blank">View Project</a>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <div class="contact-info">
-                <p>Email: <a href="mailto:malin.skrettingland@email.com">malin.skrettingland@email.com</a></p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/malin-skrettingland"
-                        target="_blank">linkedin.com/in/malin-skrettingland</a>
-                </p>
+        <section id="project-teasers">
+            <h2>Project Teasers</h2>
+            <div class="projects projects-teasers">
+                <div class="project-teaser-alt">
+                    <div class="teaser-img"
+                        style="background-image:url('./image/ChatGPT Image 27. mai 2025, 20_55_44.png');"></div>
+                    <div class="teaser-content">
+                        <h3>Travel Blog Platform</h3>
+                        <p>A custom blog platform for sharing travel stories and photos, featuring an interactive map
+                            and easy post creation. Built with WordPress and custom plugins for a unique user
+                            experience.</p>
+                        <a class="project-link-alt" href="#" target="_blank">Explore</a>
+                    </div>
+                </div>
+                <div class="project-teaser-alt">
+                    <div class="teaser-img"
+                        style="background-image:url('./image/ChatGPT Image 27. mai 2025, 20_56_56.png');"></div>
+                    <div class="teaser-content">
+                        <h3>Art Portfolio Gallery</h3>
+                        <p>An online gallery for a local artist, with filterable artwork, fullscreen previews, and a
+                            contact form. Designed with HTML, CSS Grid, and a touch of JavaScript for smooth
+                            transitions.</p>
+                        <a class="project-link-alt" href="#" target="_blank">Explore</a>
+                    </div>
+                </div>
+                <div class="project-teaser-alt">
+                    <div class="teaser-img"
+                        style="background-image:url('./image/ChatGPT Image 27. mai 2025, 20_58_57.png');"></div>
+                    <div class="teaser-content">
+                        <h3>Recipe App</h3>
+                        <p>A mobile-friendly recipe app with search, favorites, and step-by-step cooking instructions.
+                            Developed using React and styled for a clean, inviting look.</p>
+                        <a class="project-link-alt" href="#" target="_blank">Explore</a>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
     <footer>
-        &copy; 2025 Malin Skrettingland. All rights reserved.
+        <div class="footer-content">
+            <img src="./image/ChatGPT Image 27. mai 2025, 20_58_57.png" alt="Malin Skrettingland Logo"
+                class="logo footer-logo" />
+            <div class="footer-contact">
+                <p>Email: <a href="mailto:malin.skrettingland@email.com">malin.skrettingland@email.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/malin-skrettingland"
+                        target="_blank">linkedin.com/in/malin-skrettingland</a></p>
+            </div>
+        </div>
+        <div class="footer-copy">&copy; 2025 Malin Skrettingland. All rights reserved.</div>
     </footer>
+
+    <!--
+--- HEADER DESIGN SNIPPET ---
+
+CSS:
+
+header {
+  background: linear-gradient(120deg, var(--card-bg) 0%, var(--cream-bg) 70%, #e6dbc7 100%);
+  border-bottom: none;
+  box-shadow: 0 8px 32px rgba(35, 66, 54, 0.10);
+  position: relative;
+  overflow: visible;
+  min-height: 220px;
+}
+
+header h1 {
+  font-size: 5.5rem;
+  letter-spacing: 4px;
+  color: var(--green-accent);
+  text-shadow: 0 6px 32px #fffaf3, 0 2px 8px #3a5a4022;
+  background: linear-gradient(90deg, var(--green-accent) 30%, #4e6e5d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: header-pop 1.2s cubic-bezier(.77,0,.18,1) 0.1s both;
+}
+
+@keyframes header-pop {
+  0% { opacity: 0; transform: scale(0.85) translateY(40px); }
+  100% { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+.header-underline {
+  position: absolute;
+  left: 0;
+  bottom: -18px;
+  width: 100%;
+  height: 28px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.header-underline svg {
+  width: 100%;
+  height: 28px;
+  display: block;
+}
+
+.header-underline path {
+  stroke: var(--green-accent);
+  stroke-width: 6;
+  stroke-linecap: round;
+  fill: none;
+  stroke-dasharray: 220;
+  stroke-dashoffset: 220;
+  animation: underline-draw 1.2s cubic-bezier(.77,0,.18,1) 0.5s both;
+}
+
+@keyframes underline-draw {
+  from { stroke-dashoffset: 220; }
+  to { stroke-dashoffset: 0; }
+}
+
+.header-wave {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 48px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+HTML:
+
+<div class="header-underline">
+  <svg viewBox="0 0 220 28" width="220" height="28">
+    <path d="M10,22 Q60,2 110,22 T210,22" />
+  </svg>
+</div>
+<div class="header-wave">
+  <svg viewBox="0 0 1440 48" width="100%" height="48" preserveAspectRatio="none">
+    <path d="M0,38 Q360,0 720,38 T1440,38 V48 H0Z" fill="#3a5a40"/>
+  </svg>
+</div>
+
+--- END HEADER DESIGN SNIPPET ---
+-->
 </body>
 
 </html>
