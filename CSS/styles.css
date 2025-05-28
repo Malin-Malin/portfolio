@@ -419,7 +419,6 @@ footer {
   }
 }
 
-
 /* Desktop: side om side */
 .projects-teasers {
   display: flex;
@@ -482,7 +481,6 @@ footer {
   width: 100%;
 }
 
-
 /* Responsive: always column for teasers, never disappear */
 @media (max-width: 950px) {
   #project-teasers .projects-teasers {
@@ -504,9 +502,21 @@ footer {
   }
 }
 
-h1 { font-size: var(--font-h1); }
-h2 { font-size: var(--font-h2); }
-h3 { font-size: var(--font-h3); }
-h4 { font-size: var(--font-h4); }
-h5 { font-size: var(--font-h5); }
-p  { font-size: var(--font-p); }
+h1 {
+  font-size: var(--font-h1);
+}
+h2 {
+  font-size: var(--font-h2);
+}
+h3 {
+  font-size: var(--font-h3);
+}
+h4 {
+  font-size: var(--font-h4);
+}
+h5 {
+  font-size: var(--font-h5);
+}
+p {
+  font-size: var(--font-p);
+}
