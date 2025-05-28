@@ -520,3 +520,22 @@ h5 {
 p {
   font-size: var(--font-p);
 }
+
+#projects .projects-original {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 2.5rem auto;
+}
+@media (max-width: 800px) {
+  #projects .projects-original {
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 98vw;
+  }
+}
