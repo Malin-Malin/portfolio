@@ -429,7 +429,7 @@ footer {
   margin-bottom: 2.5rem;
 }
 
-.projects-original .project-card-wrapper {
+.project-card-wrapper {
   flex: 1 1 0;
   max-width: 320px;
   min-width: 220px;
@@ -447,34 +447,31 @@ footer {
 }
 .project-teaser-alt {
   display: flex;
-  flex-direction: column;
-  background: #f6f3ea;
+  flex-direction: row;
+  /* background: #f6f3ea; */
   border-radius: 1.2rem;
   box-shadow: 0 4px 24px 0 rgba(58, 90, 64, 0.1);
   overflow: hidden;
   min-height: 220px;
   position: relative;
   width: 100%;
-  padding: 0 0 1.2rem 0;
   border: 1px solid #e6dbc7;
   transition: box-shadow 0.2s;
 }
 .project-teaser-alt:hover {
   box-shadow: 0 8px 32px 0 rgba(58, 90, 64, 0.13);
 }
-.project-teaser-alt .teaser-img {
+.teaser-img {
   width: 100%;
-  height: 180px;
-  border-radius: 1.2rem 1.2rem 0 0;
+  height: cover;
   background-size: cover;
   background-position: center;
   min-height: 140px;
 }
-.project-teaser-alt .teaser-content {
+.teaser-content {
   background: none;
   color: #2d4636;
   padding: 1.1rem 1.2rem 0.2rem 1.2rem;
-  border-radius: 0 0 1.2rem 1.2rem;
   box-shadow: none;
   margin-top: 0;
   min-height: unset;
@@ -483,13 +480,13 @@ footer {
 
 /* Responsive: always column for teasers, never disappear */
 @media (max-width: 950px) {
-  #project-teasers .projects-teasers {
+  .projects-teasers {
     max-width: 98vw;
     gap: 2rem;
   }
 }
 @media (max-width: 700px) {
-  #project-teasers .projects-teasers {
+  .projects-teasers {
     max-width: 100vw;
     gap: 1.5rem;
   }
@@ -497,7 +494,7 @@ footer {
     min-height: 180px;
     padding: 0 0 0.7rem 0;
   }
-  .project-teaser-alt .teaser-img {
+  .teaser-img {
     height: 140px;
   }
 }
