@@ -1,0 +1,60 @@
+.contact-info {
+  font-size: 1.1rem;
+}
+
+footer {
+  display: block;
+  background: var(--green-accent-soft);
+  /* background: var(--green-accent); */
+  color: var(--cream-bg);
+  padding: 2rem 0 1rem 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.footer-logo {
+  width: 100px;
+  height: 100px;
+  margin: 0 2rem 0 0;
+  background: var(--cream-bg);
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s;
+  display: inline-block;
+  box-shadow: none;
+  border: none;
+}
+.footer-logo:hover {
+  transform: scale(1.08);
+  background: var(--accent-light);
+  box-shadow: none;
+  border: none;
+}
+
+.footer-contact {
+  color: var(--cream-bg);
+  text-align: left;
+  display: inline-block;
+}
+.footer-contact a {
+  color: var(--cream-bg);
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+.footer-contact a:hover {
+  color: var(--accent-light);
+}
+
+.footer-copy {
+  color: var(--cream-bg);
+  font-size: 0.95rem;
+  margin-top: 3rem;
+}

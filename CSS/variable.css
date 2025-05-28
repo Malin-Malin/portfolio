@@ -1,0 +1,49 @@
+h1 {
+  font-size: var(--font-h1);
+}
+h2 {
+  font-size: var(--font-h2);
+}
+h3 {
+  font-size: var(--font-h3);
+}
+h4 {
+  font-size: var(--font-h4);
+}
+h5 {
+  font-size: var(--font-h5);
+}
+p {
+  font-size: var(--font-p);
+}
+
+:root {
+  --beige-bg: #f3e7d4; /* mørkere beige */
+  --cream-bg: #f8f6f1; /* kremfarget, lysere aksent */
+  --card-bg: #f6f3ea; /* kortbakgrunn, mørkere beige */
+  --accent-light: #e6dbc7; /* varm, lys aksent for knapper/lenker */
+  --accent-hover: #d2c2a8; /* mørkere variant til hover */
+  --green-accent: #35543a;
+  --green-accent-soft: #4e6e5d;
+  --text-dark: #2d2a26;
+  --text-green: #3a5a40;
+  --overlay-bg: rgba(243, 231, 212, 0.88); /* lys, elegant overlay */
+  --shadow: 0 4px 24px rgba(35, 66, 54, 0.08);
+  --font-h1: 3.2rem;
+  --font-h2: 2.2rem;
+  --font-h3: 1.5rem;
+  --font-h4: 1.18rem;
+  --font-h5: 1.05rem;
+  --font-p: 1.08rem;
+}
+
+@media (max-width: 700px) {
+  :root {
+    --font-h1: 2.1rem;
+    --font-h2: 1.45rem;
+    --font-h3: 1.13rem;
+    --font-h4: 1.01rem;
+    --font-h5: 0.97rem;
+    --font-p: 0.98rem;
+  }
+}
