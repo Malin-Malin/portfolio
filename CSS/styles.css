@@ -52,7 +52,8 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  background: linear-gradient(120deg, #f6f3ea 0%, #ede7d7 100%);
+  /* background: linear-gradient(120deg, #f6f3ea 0%, #ede7d7 100%); */
+  background: linear-gradient(130deg, #ede7d7 20%, #4e6e5d 100%);
   color: var(--text-green);
   padding: 2.5rem 0 1.5rem 0;
   position: relative;
@@ -334,7 +335,8 @@ h2 {
 
 footer {
   display: block;
-  background: var(--green-accent);
+  background: var(--green-accent-soft);
+  /* background: var(--green-accent); */
   color: var(--cream-bg);
   padding: 2rem 0 1rem 0;
   text-align: center;
