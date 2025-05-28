@@ -25,9 +25,9 @@
   align-items: stretch;
 }
 .project-teaser-alt {
-  position: relative;
   display: flex;
   flex-direction: column;
+  position: relative;
   justify-content: flex-end;
   background: #f6f3ea;
   border-radius: 1.2rem;

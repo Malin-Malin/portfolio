@@ -1,5 +1,7 @@
 h1 {
   font-size: var(--font-h1);
+  font-family: Francois One, serif;
+  font-weight: 400;
 }
 h2 {
   font-size: var(--font-h2);
@@ -15,6 +17,12 @@ h5 {
 }
 p {
   font-size: var(--font-p);
+}
+h2,
+h3,
+h4,
+h5 {
+  font-family: Bona Nova, serif;
 }
 
 :root {
