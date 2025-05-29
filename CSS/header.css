@@ -202,13 +202,29 @@ header h1::after {
     margin-top: 0.5rem;
   }
   .header-content nav a {
-    font-size: 1.05rem;
-    padding: 0.5rem;
-    letter-spacing: 0.5px;
-    transition: background 0.2s;
+    font-size: 0.6rem;
+    padding: 0.4rem 0.6rem;
+    letter-spacing: 0.3px;
+    transition: background-color 0.2s;
   }
   .header-content nav a:active,
   .header-content nav a:focus {
-    background: var(--accent-light, #e6dbc7);
+    background-color: var(--accent-light, #e6dbc7);
+    color: var(--text-dark, #2d2a26);
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    min-height: unset;
+    padding: 1.2rem 0.5rem 0.7rem 0;
+  }
+  .header-content nav {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .header-content h1 {
+    font-size: 1.5rem;
+    width: max-content;
   }
 }
