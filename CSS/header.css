@@ -167,29 +167,6 @@ header h1::after {
   fill: none;
 }
 
-nav {
-  margin-top: 1.2rem;
-  text-align: left;
-}
-
-nav a {
-  color: #3a5a40;
-  text-decoration: none;
-  margin: 0 1.2rem 0 0;
-  font-weight: 600;
-  font-size: 1.1rem;
-  letter-spacing: 1px;
-  padding: 0.4rem 1rem;
-  border-radius: 20px;
-  transition: background 0.2s, color 0.2s;
-  background: var(--accent-light);
-}
-
-nav a:hover {
-  background: var(--green-accent-soft);
-  color: var(--cream-bg);
-}
-
 @media (max-width: 700px) {
   header {
     min-height: unset;
