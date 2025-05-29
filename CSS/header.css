@@ -16,53 +16,6 @@ header {
   gap: 2rem;
 }
 
-.logo,
-.footer-logo {
-  width: 150px;
-  height: 150px;
-  object-fit: contain;
-  border-radius: 50%;
-  margin: 0 1.2rem 0 0;
-  background: none;
-  box-shadow: none;
-  border: none;
-  display: inline-block;
-  transition: transform 0.3s;
-}
-
-.logo {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: none;
-  margin: 0 2.5rem 0 2rem;
-  background: none;
-  position: relative;
-  z-index: 2;
-  box-shadow: none;
-  transition: transform 0.35s cubic-bezier(0.77, 0, 0.18, 1),
-    box-shadow 0.35s cubic-bezier(0.77, 0, 0.18, 1);
-  filter: none;
-  animation: logo-pop-in 1.2s cubic-bezier(0.77, 0, 0.18, 1) 0.2s both;
-  transform: none;
-}
-@keyframes logo-pop-in {
-  0% {
-    opacity: 0;
-    transform: scale(0.7) rotate(-12deg);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1) rotate(0);
-  }
-}
-.logo:hover {
-  transform: scale(1.045) rotate(-1.5deg);
-  box-shadow: 0 4px 18px 0 rgba(58, 90, 64, 0.1);
-  filter: brightness(1.04) saturate(1.08);
-}
-
 .header-content {
   display: flex;
   flex-direction: column;
@@ -167,6 +120,23 @@ header h1::after {
   fill: none;
 }
 
+nav a {
+  color: #3a5a40;
+  text-decoration: none;
+  margin: 0 1.2rem 0 0;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  transition: background-color 0.2s, color 0.2s;
+  background-color: var(--accent-light);
+}
+nav a:hover {
+  background-color: var(--green-accent-soft);
+  color: var(--cream-bg);
+}
+
 @media (max-width: 700px) {
   header {
     min-height: unset;
@@ -220,11 +190,12 @@ header h1::after {
     padding: 1.2rem 0.5rem 0.7rem 0;
   }
   .header-content nav {
-    visibility: hidden;
-    opacity: 0;
+    gap: 0.5rem;
+  }
+  .header-content nav a {
+    margin: 0;
   }
   .header-content h1 {
     font-size: 1.5rem;
-    width: max-content;
   }
 }

@@ -1,0 +1,44 @@
+.logo {
+  object-fit: cover;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--cream-bg);
+  position: relative;
+  z-index: 2;
+  box-shadow 0.35s cubic-bezier(0.77, 0, 0.18, 1);
+  animation: logo-pop-in 1.2s cubic-bezier(0.77, 0, 0.18, 1) 0.2s both;
+}
+.logo:hover {
+  transform: scale(1.045) rotate(-1.5deg);
+  box-shadow: 0 4px 18px 0 rgba(58, 90, 64, 0.1);
+  filter: brightness(1.04) saturate(1.08);
+}
+.header-logo {
+  width: 120px;
+  height: 120px;
+  margin: 0 2.5rem 0 2rem;
+  transition: transform 0.35s cubic-bezier(0.77, 0, 0.18, 1),
+}
+
+.footer-logo {
+  width: 100px;
+  height: 100px;
+  margin: 0 2rem 0 0;
+  transition: transform 0.3s;
+  display: inline-block;
+}
+.footer-logo:hover {
+  transform: scale(1.08);
+  background: var(--accent-light);
+}
+
+@keyframes logo-pop-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.7) rotate(-12deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+  }
+}

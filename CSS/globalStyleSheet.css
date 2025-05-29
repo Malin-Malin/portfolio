@@ -3,6 +3,7 @@
 @import url("./variable.css");
 @import url("./archCard.css");
 @import url("./thumbnail.css");
+@import url("./logo.css");
 
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=WindSong:wght@400;700&display=swap");
@@ -69,23 +70,16 @@ a {
 a {
   text-decoration: none;
 }
-
-nav a {
-  color: #3a5a40;
-  text-decoration: none;
-  margin: 0 1.2rem 0 0;
+.project-site {
+  color: var(--text-dark);
   font-weight: 600;
-  font-size: 1.1rem;
-  letter-spacing: 1px;
-  padding: 0.4rem 1rem;
-  border-radius: 20px;
-  transition: background-color 0.2s, color 0.2s;
-  background-color: var(--accent-light);
 }
-nav a:hover {
-  background-color: var(--green-accent-soft);
-  color: var(--cream-bg);
+.project-site:hover {
+  color: var(--text-green);
+  text-decoration: underline;
+  font-weight: 700;
 }
+
 .text-color {
   color: var(--text-dark);
 }
