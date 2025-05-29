@@ -188,6 +188,7 @@ nav a:hover {
   header {
     min-height: unset;
     padding: 1.2rem 0.5rem 0.7rem 0;
+    gap: 1rem;
   }
   .header-content nav {
     gap: 0.5rem;
