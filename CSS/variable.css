@@ -10,7 +10,7 @@
   --text-green: #3a5a40;
   --overlay-bg: rgba(243, 231, 212, 0.88); /* lys, elegant overlay */
   --shadow: 0 4px 24px rgba(35, 66, 54, 0.08);
-  --font-h1: 3.2rem;
+  --font-h1: 3rem;
   --font-h2: 2.2rem;
   --font-h3: 1.5rem;
   --font-h4: 1.18rem;
@@ -20,11 +20,17 @@
 
 @media (max-width: 700px) {
   :root {
-    --font-h1: 2.1rem;
-    --font-h2: 1.45rem;
-    --font-h3: 1.13rem;
-    --font-h4: 1.01rem;
-    --font-h5: 0.97rem;
-    --font-p: 0.98rem;
+    --font-h1: 2.5rem;
+    --font-h2: 2.25rem;
+    --font-h3: 2rem;
+    --font-h4: 1.5rem;
+    --font-h5: 1.25rem;
+    --font-p: 1rem;
+    --font-button-small: 0.6rem;
+  }
+}
+@media (max-width: 700px) {
+  :root {
+    --font-h1: 1.5rem;
   }
 }
