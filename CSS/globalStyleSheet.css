@@ -83,3 +83,9 @@ a {
 .text-color {
   color: var(--text-dark);
 }
+
+@media (max-width: 1000px) {
+  h2 {
+    text-align: center;
+  }
+}

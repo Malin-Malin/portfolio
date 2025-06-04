@@ -1,7 +1,6 @@
 footer {
   display: block;
   background: var(--green-accent-soft);
-  /* background: var(--green-accent); */
   color: var(--cream-bg);
   padding: 2rem 0 1rem 0;
   text-align: center;

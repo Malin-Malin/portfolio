@@ -11,7 +11,7 @@
 
 .arch-image {
   width: 100%;
-  max-width: 100%;
+
   height: auto;
   aspect-ratio: 25 / 28;
   object-fit: cover;
@@ -62,7 +62,6 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 1100px;
   margin: 0 auto 2.5rem auto;
 }
 @media (max-width: 800px) {

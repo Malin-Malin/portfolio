@@ -3,7 +3,6 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  /* background: linear-gradient(120deg, #f6f3ea 0%, #ede7d7 100%); */
   background: linear-gradient(130deg, #ede7d7 20%, #4e6e5d 100%);
   color: var(--text-green);
   padding: 2.5rem 0 1.5rem 0;
@@ -121,7 +120,7 @@ header h1::after {
 }
 
 nav a {
-  color: #3a5a40;
+  color: var(--text-green);
   text-decoration: none;
   margin: 0 1.2rem 0 0;
   font-weight: 600;

@@ -1,32 +1,36 @@
 :root {
-  --beige-bg: #f3e7d4; /* mørkere beige */
-  --cream-bg: #f8f6f1; /* kremfarget, lysere aksent */
-  --card-bg: #f6f3ea; /* kortbakgrunn, mørkere beige */
-  --accent-light: #e6dbc7; /* varm, lys aksent for knapper/lenker */
-  --accent-hover: #d2c2a8; /* mørkere variant til hover */
+  /* ----------- Color ---------------- */
+  --beige-bg: #f3e7d4; /* darker beige */
+  --cream-bg: #f8f6f1; /* cream color, lighter accent */
+  --card-bg: #f6f3ea; /* card background, darker beige */
+  --overlay-bg: rgba(243, 231, 212, 0.88); /* light, elegant overlay */
+  --accent-light: #e6dbc7; /* warm, light accent for buttons/links */
+  --accent-hover: #d2c2a8; /* darker variant for hover */
   --green-accent: #35543a;
   --green-accent-soft: #4e6e5d;
   --text-dark: #2d2a26;
   --text-green: #3a5a40;
-  --overlay-bg: rgba(243, 231, 212, 0.88); /* lys, elegant overlay */
-  --shadow: 0 4px 24px rgba(35, 66, 54, 0.08);
+  --text-dark-green: #2d4636; /* dark green for text */
+  /* ------------- Shadow -------------- */
+  /* ------------ Font size--------------- */
   --font-h1: 3rem;
-  --font-h2: 2.2rem;
-  --font-h3: 1.5rem;
-  --font-h4: 1.18rem;
-  --font-h5: 1.05rem;
-  --font-p: 1.08rem;
+  --font-h2: 2.25rem;
+  --font-h3: 2rem;
+  --font-h4: 1.5rem;
+  --font-h5: 1.25rem;
+  --font-p: 1rem;
+  --font-button: 0.6rem;
 }
 
 @media (max-width: 700px) {
   :root {
     --font-h1: 2.5rem;
-    --font-h2: 2.25rem;
-    --font-h3: 2rem;
-    --font-h4: 1.5rem;
-    --font-h5: 1.25rem;
-    --font-p: 1rem;
-    --font-button-small: 0.6rem;
+    --font-h2: 1.8rem;
+    --font-h3: 1.3rem;
+    --font-h4: 1rem;
+    --font-h5: 0.95rem;
+    --font-p: 0.75rem;
+    --font-button: 0.6rem;
   }
 }
 @media (max-width: 700px) {
