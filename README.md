@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio website showcasing projects from Noroff Front-End Development studies (2024–2026).
 
-![Portfolio Logo](image/Cartoon-style-portrait-02.05.png)
+![logo](image/ChatGPT%20Image%2028.%20mai%202025,%2010_53_44.png){ width=120 }
 
 I'm always pushing myself to be more organized and learn new things. I've never made an arch thumbnail before, but I loved the experience!
 
@@ -24,10 +24,6 @@ I'm always pushing myself to be more organized and learn new things. I've never 
 ### About Me (Sample Text)
 
 > "I am passionate about creating beautiful, accessible web experiences. My portfolio is a reflection of my journey as a front-end developer, blending creativity with code.
-
-### Portfolio Image
-
-![Cartoon-style portrait](image/Cartoon-style-portrait-01.05.png)
 
 ## Earlier Projects
 
@@ -63,3 +59,5 @@ image/
 ## Credits
 
 Portfolio design and code by Malin Skrettingland.
+
+![Cartoon-style portrait](image/Cartoon-style-portrait-01.05.png){ width=120 }
