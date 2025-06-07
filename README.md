@@ -29,11 +29,11 @@ I'm always pushing myself to be more organized and learn new things. I've never 
 
 Here are some of my earlier projects from my studies:
 
-| Project            | Preview Image                                   | Link                                                                         |
-| ------------------ | ----------------------------------------------- | ---------------------------------------------------------------------------- |
-| RainyDays          | ![RainyDays](image/RainyDays.png)               | [RainyDays](https://malinskrettingland.github.io/rainydays/)                 |
-| Exam 2025          | ![Exam2025](image/Exam2025.png)                 | [Exam 2025](https://malinskrettingland.github.io/exam2025/)                  |
-| Semester Project 1 | ![SemesterProject1](image/SemesterProject1.png) | [Semester Project 1](https://malinskrettingland.github.io/semesterproject1/) |
+| Project            | Preview Image                                   | Link                                                                                |
+| ------------------ | ----------------------------------------------- | ----------------------------------------------------------------------------------- |
+| RainyDays          | ![RainyDays](image/RainyDays.png)               | [RainyDays](https://malin-malin.github.io/RainyDays-Malin-Skrettingland/index.html) |
+| Exam 2025          | ![Exam2025](image/Exam2025.png)                 | [Exam 2025](https://malin-malin.github.io/CommunityScienceMuseum/index.html)        |
+| Semester Project 1 | ![SemesterProject1](image/SemesterProject1.png) | [Semester Project 1](https://courageous-stroopwafel-073cc9.netlify.app/)            |
 
 ## Folder Structure
 
