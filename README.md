@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio website showcasing projects from Noroff Front-End Development studies (2024–2026).
 
-![logo](image/ChatGPT%20Image%2028.%20mai%202025,%2010_53_44.png){ width=120 }
+![logo](image/ChatGPT%20Image%2028.%20mai%202025,%2010_53_44.png)
 
 I'm always pushing myself to be more organized and learn new things. I've never made an arch thumbnail before, but I loved the experience!
 
@@ -29,11 +29,11 @@ I'm always pushing myself to be more organized and learn new things. I've never 
 
 Here are some of my earlier projects from my studies:
 
-| Project            | Preview Image                                   | Link                                                                                |
-| ------------------ | ----------------------------------------------- | ----------------------------------------------------------------------------------- |
-| RainyDays          | ![RainyDays](image/RainyDays.png)               | [RainyDays](https://malin-malin.github.io/RainyDays-Malin-Skrettingland/index.html) |
-| Exam 2025          | ![Exam2025](image/Exam2025.png)                 | [Exam 2025](https://malin-malin.github.io/CommunityScienceMuseum/index.html)        |
-| Semester Project 1 | ![SemesterProject1](image/SemesterProject1.png) | [Semester Project 1](https://courageous-stroopwafel-073cc9.netlify.app/)            |
+| Project            | Preview Image                                   | Link                                                                                  |
+| ------------------ | ----------------------------------------------- | ------------------------------------------------------------------------------------- |
+| RainyDays          | ![RainyDays](image/RainyDays.png)               | [RainyDays](https://malin-malin.github.io/RainyDays-Malin-Skrettingland/index.html)   |
+| Exam 2025          | ![Exam2025](image/Exam2025.png)                 | [Exam 2025](https://courageous-stroopwafel-073cc9.netlify.app/)                       |
+| Semester Project 1 | ![SemesterProject1](image/SemesterProject1.png) | [Semester Project 1](https://malin-malin.github.io/CommunityScienceMuseum/index.html) |
 
 ## Folder Structure
 
@@ -60,4 +60,4 @@ image/
 
 Portfolio design and code by Malin Skrettingland.
 
-![Cartoon-style portrait](image/Cartoon-style-portrait-01.05.png){ width=120 }
+![Cartoon-style portrait](image/Cartoon-style-portrait-01.05.png)
