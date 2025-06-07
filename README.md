@@ -29,6 +29,16 @@ I'm always pushing myself to be more organized and learn new things. I've never 
 
 ![Cartoon-style portrait](image/Cartoon-style-portrait-01.05.png)
 
+## Earlier Projects
+
+Here are some of my earlier projects from my studies:
+
+| Project            | Preview Image                                   | Link                                                                         |
+| ------------------ | ----------------------------------------------- | ---------------------------------------------------------------------------- |
+| RainyDays          | ![RainyDays](image/RainyDays.png)               | [RainyDays](https://malinskrettingland.github.io/rainydays/)                 |
+| Exam 2025          | ![Exam2025](image/Exam2025.png)                 | [Exam 2025](https://malinskrettingland.github.io/exam2025/)                  |
+| Semester Project 1 | ![SemesterProject1](image/SemesterProject1.png) | [Semester Project 1](https://malinskrettingland.github.io/semesterproject1/) |
+
 ## Folder Structure
 
 ```
