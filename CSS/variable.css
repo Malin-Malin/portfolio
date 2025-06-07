@@ -1,16 +1,16 @@
 :root {
   /* ----------- Color ---------------- */
-  --beige-bg: #f3e7d4; /* darker beige */
-  --cream-bg: #f8f6f1; /* cream color, lighter accent */
-  --card-bg: #f6f3ea; /* card background, darker beige */
+  --beige-bg: rgb(243, 231, 212); /* darker beige */
+  --cream-bg: rgb(248, 246, 241); /* cream color, lighter accent */
+  --card-bg: rgb(246, 243, 234); /* card background, darker beige */
   --overlay-bg: rgba(243, 231, 212, 0.88); /* light, elegant overlay */
-  --accent-light: #e6dbc7; /* warm, light accent for buttons/links */
-  --accent-hover: #d2c2a8; /* darker variant for hover */
-  --green-accent: #35543a;
-  --green-accent-soft: #4e6e5d;
-  --text-dark: #2d2a26;
-  --text-green: #3a5a40;
-  --text-dark-green: #2d4636; /* dark green for text */
+  --accent-light: rgb(230, 219, 199); /* warm, light accent for buttons/links */
+  --accent-hover: rgb(210, 194, 168); /* darker variant for hover */
+  --green-accent: rgb(53, 84, 58);
+  --green-accent-soft: rgb(78, 110, 93);
+  --text-dark: rgb(45, 42, 38);
+  --text-green: rgb(58, 90, 64);
+  --text-dark-green: rgb(45, 70, 54); /* dark green for text */
   /* ------------- Shadow -------------- */
   /* ------------ Font size--------------- */
   --font-h1: 3rem;
