@@ -30,7 +30,7 @@
   padding: 1rem;
   box-shadow: 0 1px 8px rgba(35, 66, 54, 0.06);
   width: 100%;
-  min-height: 340px;
+  min-height: 260px;
   display: flex;
   flex-direction: column;
   z-index: 1;
@@ -52,6 +52,8 @@
   color: var(--text-green);
   position: relative;
   z-index: 3;
+  margin: 0;
+  height: 65px;
 }
 
 .projects {
