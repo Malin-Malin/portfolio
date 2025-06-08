@@ -15,16 +15,16 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body">
     <header>
         <div style="position: relative; display: flex; align-items: center;">
             </span>
             <img src="./image/ChatGPT Image 28. mai 2025, 10_53_44.png" class="logo header-logo"
-                alt="Malin Skrettingland Logo" />
+                alt="Malin Skrettingland personal logo" oncontextmenu="return false" />
         </div>
         <div class="header-content">
             <h1>Malin Skrettingland</h1>
-            <nav>
+            <nav aria-label="Main navigation">
                 <a href="#about">About</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
@@ -46,7 +46,7 @@
             <h2>About me</h2>
             <div class="projects">
                 <div class="project-card-wrapper">
-                    <img class="arch-image" src="./image/Cartoon-style-portrait-02.05.png"
+                    <img class="arch-image" oncontextmenu="return false" src="./image/Cartoon-style-portrait-02.05.png"
                         alt="Cartoon-style portrait of a smiling woman with long red hair and a dark shirt, looking directly at the viewer" />
                     <div class="project-card">
                         <h3>Full-time teacher</h3>
@@ -57,7 +57,8 @@
                     </div>
                 </div>
                 <div class="project-card-wrapper">
-                    <img class="arch-image" src="./image/ChatGPT Image 28. mai 2025, 10_44_18.png" alt="" />
+                    <img class="arch-image" oncontextmenu="return false"
+                        src="./image/ChatGPT Image 28. mai 2025, 10_44_18.png" alt="" />
                     <div class="project-card">
                         <h3>Full-time student</h3>
                         <p>Alongside my job, I study full-time at Noroff and have just completed my first year in
@@ -66,7 +67,7 @@
                     </div>
                 </div>
                 <div class="project-card-wrapper">
-                    <img class="arch-image" src="./image/Cartoon-style-portrait-01.05.png"
+                    <img class="arch-image" oncontextmenu="return false" src="./image/Cartoon-style-portrait-01.05.png"
                         alt="Cartoon-style drawing of a woman with freckles, sunglasses on her head, smiling with a city view in the background" />
                     <div class="project-card">
                         <h3>Structured and creative</h3>
@@ -91,12 +92,16 @@
                             Looking back, I’m proud of how far I’ve come since then – but RainyDays will always be a
                             milestone that
                             marked the start of my journey into web development.</p>
-                        <a class="project-site" href="https://rainy-days-malin.netlify.app/">Explore the
-                            project</a>
-                        <p>Take a look at the design process in Figma. Password: Design-Malin-2025</p>
-                        <a class="project-site"
-                            href="https://www.figma.com/design/cz2XeWJILbv0AsgwyVpErZ/Rainy-days-nettside?node-id=1-55&m=dev&t=TpV8uqXX9Wg8Jnof-1">Open
-                            the Figma design</a>
+                        <div class="flex-container">
+                            <a class="project-site" href="https://rainy-days-malin.netlify.app/">Explore the RainyDays
+                                project</a>
+                            <a class="project-site" href="https://github.com/Malin-Malin/rainyDays-with-js">Explore the
+                                GitHub Repository</a>
+                            <a class="project-site"
+                                href="https://www.figma.com/design/cz2XeWJILbv0AsgwyVpErZ/Rainy-days-nettside?node-id=1-55&m=dev&t=TpV8uqXX9Wg8Jnof-1">Open
+                                the Figma design</a>
+                        </div>
+                        <p class="small-text">Password for the Figma design: Design-Malin-2025</p>
                     </div>
                 </div>
                 <div class="thumbnail">
@@ -108,12 +113,16 @@
                             museum aimed at children and young teens. I focused on playful design, clear structure, and
                             accessibility, using only HTML and CSS. It was a great challenge that helped me grow in both
                             creativity and coding confidence.</p>
-                        <a class="project-site" href="https://community-science-museum-malin.netlify.app/">Explore the
-                            project</a>
-                        <p>Take a look at the design process in Figma. Password: Design-Malin-2025</p>
-                        <a class="project-site"
-                            href="https://www.figma.com/design/PcjaK78LWGKnyWJ6MJvBxM/Semester-project-1?node-id=157-251&p=f&t=6bmwF81KrDgIeBun-0">Open
-                            the Figma design</a>
+                        <div class="flex-container">
+                            <a class="project-site" href="https://community-science-museum-malin.netlify.app/">
+                                Explore the Semester project</a>
+                            <a class="project-site" href="https://github.com/Malin-Malin/CommunityScienceMuseum">
+                                Explore the GitHub Repository</a>
+                            <a class="project-site"
+                                href="https://www.figma.com/design/PcjaK78LWGKnyWJ6MJvBxM/Semester-project-1?node-id=157-251&p=f&t=6bmwF81KrDgIeBun-0">
+                                Open the Figma design</a>
+                        </div>
+                        <p class="small-text">Password for the Figma design: Design-Malin-2025</p>
                     </div>
                 </div>
                 <div class="thumbnail">
@@ -125,12 +134,17 @@
                             Makerspace. The site includes multiple pages, a blog system, and forms – all built using
                             HTML, CSS and JavaScript. This project brought together everything I’ve learned so far, with
                             a strong focus on structure, usability, and visual consistency.</p>
-                        <a class="project-site" href="https://courageous-stroopwafel-073cc9.netlify.app/">Explore the
-                            project</a>
-                        <p>Take a look at the design process in Figma. Password: Exam-Malin-2025</p>
-                        <a class="project-site"
-                            href="https://www.figma.com/design/XK4EWZGT7lsvJkwN0gE2Tc/Exam-idea?node-id=2-151&p=f&t=tTlTa2mfEfUZXNPg-0">
-                            Open the figma design</a>
+                        <div class="flex-container">
+                            <a class="project-site" href="https://courageous-stroopwafel-073cc9.netlify.app/">
+                                Explore the
+                                project</a>
+                            <a class="project-site" href="https://github.com/Malin-Malin/FED1-PE1-Malin-Malin">
+                                Explore the GitHub Repository (Private)</a>
+                            <a class="project-site"
+                                href="https://www.figma.com/design/XK4EWZGT7lsvJkwN0gE2Tc/Exam-idea?node-id=2-151&p=f&t=tTlTa2mfEfUZXNPg-0">
+                                Open the figma design</a>
+                        </div>
+                        <p class="small-text">Password for the Figma design: Exam-Malin-2025</p>
                     </div>
                 </div>
             </div>
@@ -139,7 +153,7 @@
     <footer id="contact">
         <div class="footer-content">
             <img src="./image/ChatGPT Image 28. mai 2025, 10_53_44.png" class="logo footer-logo"
-                alt="Malin Skrettingland Logo" />
+                alt="Malin Skrettingland personal logo" />
             <div class="footer-contact">
                 <p>Email: <a href="mailto:malin.skrettingland@email.com">malin.skrettingland@email.com</a></p>
                 <p>LinkedIn: <a
@@ -150,6 +164,6 @@
         <div class="footer-copy">&copy; 2025 Malin Skrettingland. All rights reserved.</div>
     </footer>
 
-</body>
+    </body>
 
 </html>

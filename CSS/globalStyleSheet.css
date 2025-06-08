@@ -36,6 +36,14 @@ section {
   padding-bottom: 1.5rem;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+}
+
 h1 {
   font-size: var(--font-h1);
   font-family: Francois One, serif;
@@ -70,6 +78,7 @@ a {
 a {
   text-decoration: none;
 }
+
 .project-site {
   color: var(--text-dark);
   font-weight: 600;

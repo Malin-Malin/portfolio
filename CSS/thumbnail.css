@@ -15,7 +15,6 @@
   box-shadow: 0 4px 24px 0 rgba(58, 90, 64, 0.1);
   overflow: hidden;
   width: 100%;
-  /* max-width: 900px; */
   margin: 0 auto;
   border: 1px solid var(--accent-light, #dbe6d5);
   transition: box-shadow 0.2s;
@@ -46,15 +45,18 @@
 }
 .thumbnail-content h3 {
   margin: 0 0 0.7rem 0;
-  font-size: 1.5rem;
+  font-size: var(--font-h2);
 }
 .thumbnail-content p {
   margin: 0.5rem 0 0 0;
-  font-size: 1.08rem;
+  font-size: var(--font-p);
+}
+.thumbnail-content .small-text {
+  font-size: var(--font-button);
 }
 .thumbnail-content a {
   margin: 0.5rem 0 0 0;
-  font-size: 1.08rem;
+  font-size: var(--font-button);
 }
 
 @media (max-width: 900px) {
