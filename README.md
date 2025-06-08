@@ -1,4 +1,4 @@
-# Malin Skrettingland Portfolio
+# Malin Skrettingland Portfolio [Live site](https://portfolio-malin-malin.netlify.app/)
 
 A modern, responsive personal portfolio website showcasing projects from Noroff Front-End Development studies (2024–2026).
 
@@ -31,11 +31,11 @@ I'm always pushing myself to be more organized and learn new things. I've never 
 
 Here are some of my earlier projects from my studies:
 
-| Project            | Preview Image                                   | Link                                                                                  |
-| ------------------ | ----------------------------------------------- | ------------------------------------------------------------------------------------- |
-| RainyDays          | ![RainyDays](image/RainyDays.jpg)               | [RainyDays](https://malin-malin.github.io/RainyDays-Malin-Skrettingland/index.html)   |
-| Exam 2025          | ![Exam2025](image/Exam2025.jpg)                 | [Exam 2025](https://courageous-stroopwafel-073cc9.netlify.app/)                       |
-| Semester Project 1 | ![SemesterProject1](image/SemesterProject1.jpg) | [Semester Project 1](https://malin-malin.github.io/CommunityScienceMuseum/index.html) |
+| Project            | Preview Image                                   | Link                                                                      |
+| ------------------ | ----------------------------------------------- | ------------------------------------------------------------------------- |
+| RainyDays          | ![RainyDays](image/RainyDays.jpg)               | [RainyDays](https://rainy-days-malin.netlify.app/)                        |
+| Exam 2025          | ![Exam2025](image/Exam2025.jpg)                 | [Exam 2025](https://courageous-stroopwafel-073cc9.netlify.app/)           |
+| Semester Project 1 | ![SemesterProject1](image/SemesterProject1.jpg) | [Semester Project 1](https://community-science-museum-malin.netlify.app/) |
 
 ## Folder Structure
 
