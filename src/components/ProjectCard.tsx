@@ -6,7 +6,7 @@ import "./Thumbnail.css";
 
 const ProjectCard = () => {
   return (
-    <div className="projects thumbnail-containor">
+    <div className="projects thumbnail-containor ">
       <div className="thumbnail">
         <img
           className="thumbnail-img"
