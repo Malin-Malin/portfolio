@@ -7,6 +7,7 @@ import "./globalStyleSheet.css";
 import "./App.css";
 import "./index.css";
 import "./Logo.css";
+import ProjectCard02 from "./components/ProjectCard02";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           more!
         </p>
       </section>
+      <ProjectCard02 />
       <section id="about">
         <h2>About me</h2>
         <ThumbnailCard />
