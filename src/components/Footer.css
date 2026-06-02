@@ -2,8 +2,14 @@ footer {
   display: block;
   background: var(--green-accent-soft);
   color: var(--cream-bg);
-  padding: 2rem 0 1rem 0;
-  text-align: center;
+  text-align: left;
+}
+
+.footer-inner {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 2rem 1rem;
 }
 
 .footer-content {
@@ -11,8 +17,9 @@ footer {
   align-items: center;
   justify-content: center;
   color: var(--cream-bg);
-  text-align: left;
-  margin-bottom: 0.5rem;
+  text-align: center;
+  margin: 0 0 0.5rem;
+  width: 100%;
   flex-wrap: wrap;
   gap: 1.5rem;
 }
@@ -21,16 +28,23 @@ footer {
   font-size: 1.1rem;
 }
 
+.footer-contact {
+  text-align: center;
+}
+
 .footer-contact a {
   color: var(--cream-bg);
   text-decoration: underline;
   transition: color 0.2s;
 }
+
 .footer-contact a:hover {
   color: var(--accent-light);
 }
+
 .footer-copy {
   color: var(--cream-bg);
   font-size: 0.95rem;
   margin-top: 3rem;
+  text-align: center;
 }
