@@ -80,8 +80,9 @@ export const projects: Project[] = [
       "Walk In Dinner was developed as my semester project after receiving approval to create a custom assignment based on a real-world concept. The application was designed to support a local dining event by simplifying participant registration, event information sharing, and overall event management. This project allowed me to work through the complete development process, from planning and design to implementation and testing. It provided valuable experience in creating a solution based on actual user needs and practical requirements.",
     links: {
       live: "https://walk-in-dinner.netlify.app/",
-      figma: "#",
-      github: "#",
+      figma:
+        "https://www.figma.com/design/QxkgOgfnciUPVrrtLljddt/Walk-In-Dinner?node-id=4-12&p=f&t=qPr9j332eK3LbIHl-0",
+      github: "https://github.com/Malin-Malin/Walk-in-dinner",
     },
   },
   {
@@ -95,7 +96,7 @@ export const projects: Project[] = [
     links: {
       live: "https://sosial-media-application.netlify.app/",
       figma: "#",
-      github: "#",
+      github: "https://github.com/Malin-Malin/social.media.application",
     },
   },
   {
@@ -108,8 +109,9 @@ export const projects: Project[] = [
       "This project was created as part of our introduction to the React framework. The main objective was to learn component-based development, state management, routing, and API integration. I chose to collaborate with a fellow student, which gave us the opportunity to work with GitHub and Kanban workflows in a more professional setting. Throughout the project, we developed both our technical React skills and our understanding of teamwork, communication, task management, and collaborative software development practices.",
     links: {
       live: "https://genuine-sundae-0c12fa.netlify.app/",
-      figma: "#",
-      github: "#",
+      figma:
+        "https://www.figma.com/design/jZtOXObmOu0uOqZAkTmaCq/Skretcher-web-shop?node-id=0-1&p=f&t=qPr9j332eK3LbIHl-0",
+      github: "https://github.com/mamf92/online-shop",
     },
   },
   {
@@ -122,8 +124,9 @@ export const projects: Project[] = [
       "Holidaze was my final exam project, where the task was to develop a complete accommodation booking platform. The application includes user registration and authentication, venue management, booking functionality, and full CRUD operations. One aspect that makes this project particularly meaningful is that I built all interface components from scratch. At the time, I was unaware that pre-built component libraries were allowed, which resulted in a deeper learning experience and a stronger understanding of component architecture, styling, and reusable code. This project demonstrates my ability to develop a larger-scale web application independently while implementing complex functionality and maintaining a cohesive user experience.",
     links: {
       live: "https://holidaze-ms.netlify.app/",
-      figma: "#",
-      github: "#",
+      figma:
+        "https://www.figma.com/design/uCaPZSElqfAckkQZe1g1nN/Holidaze?node-id=5-430&p=f&t=qPr9j332eK3LbIHl-0",
+      github: "https://github.com/Malin-Malin/Holidaze",
     },
   },
 ];

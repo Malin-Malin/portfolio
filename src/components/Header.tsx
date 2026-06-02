@@ -22,9 +22,9 @@ const Header = () => {
         <section className="header-content">
           <span className="header-title">Malin Skrettingland</span>
           <nav aria-label="Main navigation">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a href="/#about">About</a>
+            <a href="/#projects">Projects</a>
+            <a href="/#contact">Contact</a>
           </nav>
         </section>
       </div>

@@ -6,20 +6,17 @@ const ProjectCard02 = () => {
   return (
     <section className="project-card02-section">
       {projects.map((project) => (
-        <div className="project-card02__card" key={project.id}>
-          <a
-            className="project-card02__media"
-            href={project.links.live}
-            target="_blank"
-            rel="noreferrer"
-            aria-label={`Open ${project.title} live site`}
-          >
-            <img
-              className="project-card02__image"
-              src={project.image}
-              alt={project.imageAlt}
-            />
-          </a>
+        <a
+          className="project-card02__card"
+          key={project.id}
+          href={project.links.live}
+          target="_blank"
+          rel="noreferrer"
+          aria-label={`Open ${project.title} live site`}
+        >
+          <span className="project-card02__media" aria-hidden="true">
+            <img className="project-card02__image" src={project.image} alt="" />
+          </span>
 
           <div className="project-card02__content">
             <div className="project-card02__header">
@@ -37,15 +34,29 @@ const ProjectCard02 = () => {
                   Password for the Figma design: {project.figmaPassword}
                 </p>
               ) : null}
-              <nav className="project-card02__links" aria-label="Project links">
-                <a href={project.links.live} target="_blank" rel="noreferrer">
+              <nav
+                className="project-card02__links"
+                aria-label="Project links"
+                onClick={(e) => e.stopPropagation()}
+              >
+                <a
+                  href={project.links.live}
+                  target="_blank"
+                  rel="noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                >
                   Live site
                 </a>
-                <Link to={`/projects/${project.id}`}>Read more</Link>
+                <Link
+                  to={`/projects/${project.id}`}
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  Read more
+                </Link>
               </nav>
             </div>
           </div>
-        </div>
+        </a>
       ))}
     </section>
   );

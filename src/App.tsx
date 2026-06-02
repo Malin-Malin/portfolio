@@ -1,14 +1,48 @@
-import { Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
+import { Routes, Route, useLocation } from "react-router-dom";
+
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ThumbnailCard from "./components/ThumbnailCard";
 import ProjectCard02 from "./components/ProjectCard02";
 import ProjectDetailsPage from "./components/ProjectDetailsPage";
+
 import "./variable.css";
 import "./globalStyleSheet.css";
 import "./App.css";
 import "./index.css";
 import "./Logo.css";
+
+const ScrollToHash = () => {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (!hash) {
+      return;
+    }
+
+    const targetId = decodeURIComponent(hash.replace("#", ""));
+    let attempts = 0;
+
+    const scrollToTarget = () => {
+      const target = document.getElementById(targetId);
+
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+        return;
+      }
+
+      if (attempts < 20) {
+        attempts += 1;
+        requestAnimationFrame(scrollToTarget);
+      }
+    };
+
+    scrollToTarget();
+  }, [hash]);
+
+  return null;
+};
 
 const HomePage = () => {
   return (
@@ -42,6 +76,7 @@ const HomePage = () => {
 function App() {
   return (
     <>
+      <ScrollToHash />
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
