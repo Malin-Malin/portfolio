@@ -81,7 +81,7 @@
 
 .project-card02__title {
   margin: 0;
-  font-size: clamp(1.08rem, 1.55vw, 1.45rem);
+  font-size: clamp(1.2rem, 1.8vw, 1.65rem);
   line-height: 1.12;
   color: #24211c;
 }
@@ -107,6 +107,27 @@
   margin-top: 0.35rem;
   position: relative;
   z-index: 4;
+}
+
+.project-card02__links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 0.45rem 0.95rem;
+  background: #e6dbc7;
+  border: 1px solid rgba(107, 92, 74, 0.25);
+  color: #2f2a22;
+  text-decoration: none;
+  font-weight: 600;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.project-card02__links a:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(47, 43, 35, 0.16);
 }
 
 .project-card02__card:hover .project-card02__media,
