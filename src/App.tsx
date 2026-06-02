@@ -49,15 +49,18 @@ const HomePage = () => {
     <main>
       <section id="intro">
         <h1>Portfolio</h1>
+        <p>Welcome to my portfolio!</p>
         <p>
-          Welcome to my portfolio!
           <br />
-          Here you will find a collection of the creative work I have completed
-          during my first year as a front-end development student at Noroff.
-          This site showcases everything from wireframes and design mockups to
-          fully coded websites using HTML, CSS and JavaScript.
-          <br />I am someone who values structure, creativity, and functional
-          design. Feel free to explore my work and get in touch if you want to
+          Here you will find a collection of projects I have completed during my
+          two years as a Front-End Development student at Noroff. This site
+          showcases my work with modern technologies such as HTML, CSS,
+          JavaScript, React, TypeScript, and API integration. <br />
+          <br />
+          Throughout my studies, I have developed everything from smaller
+          learning projects to larger applications and exam projects, allowing
+          me to strengthen both my technical and creative skills. <br />
+          Feel free to explore my work and get in touch if you would like to
           learn more!
         </p>
       </section>
