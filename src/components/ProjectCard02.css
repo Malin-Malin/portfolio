@@ -178,6 +178,7 @@
     inset: auto;
     gap: 1.05rem;
     padding: 1rem 0.9rem 1.2rem;
+    padding-top: 1.35rem;
     opacity: 1;
     transform: translateY(0);
   }
