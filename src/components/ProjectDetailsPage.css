@@ -60,6 +60,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.55rem;
+  justify-content: center;
 }
 
 .project-details__button {
