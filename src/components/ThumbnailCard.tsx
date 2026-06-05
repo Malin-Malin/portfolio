@@ -2,7 +2,7 @@ import CartoonStylePortrait from "../assets/Cartoon-style-portrait-02.05.jpg";
 import malinThumbnail from "../assets/malinThumbnail.jpg";
 import CartoonStylePortrait2 from "../assets/Cartoon-style-portrait-01.05.jpg";
 
-import "./archCard.css";
+import "./ArchCard.css";
 
 const ThumbnailCard = () => {
   return (
