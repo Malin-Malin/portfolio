@@ -106,25 +106,6 @@ header {
   }
 }
 
-.header-underline {
-  margin: 0.2rem 0 1.2rem 0;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 28px;
-}
-.header-underline svg {
-  display: block;
-  height: 28px;
-  width: 220px;
-}
-.header-underline path {
-  stroke: #3a5a40;
-  stroke-width: 5;
-  stroke-linecap: round;
-  fill: none;
-}
-
 nav a {
   color: var(--text-green);
   text-decoration: none;

@@ -29,14 +29,6 @@ section {
   padding-bottom: 1.5rem;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  align-items: center;
-}
-
 h1 {
   font-size: var(--font-h1);
   font-family:
@@ -76,29 +68,8 @@ a {
   text-decoration: none;
 }
 
-.project-site {
-  color: var(--text-dark);
-  font-weight: 600;
-}
-.project-site:hover {
-  color: var(--text-green);
-  text-decoration: underline;
-  font-weight: 700;
-}
-
-.text-color {
-  color: var(--text-dark);
-}
-
 @media (max-width: 900px) {
   h2 {
     text-align: center;
-  }
-}
-@media (max-width: 500px) {
-  .flex-container {
-    gap: 0;
-    flex-direction: column;
-    align-items: start;
   }
 }
