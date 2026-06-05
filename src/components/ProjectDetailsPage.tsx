@@ -16,7 +16,7 @@ const ProjectDetailsPage = () => {
       : "project-details__button";
 
   return (
-    <section
+    <article
       className="project-details"
       aria-labelledby="project-details-title"
     >
@@ -73,7 +73,7 @@ const ProjectDetailsPage = () => {
           </a>
         </nav>
       </div>
-    </section>
+    </article>
   );
 };
 

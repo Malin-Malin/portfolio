@@ -7,7 +7,7 @@ import "./archCard.css";
 const ThumbnailCard = () => {
   return (
     <div className="projects">
-      <div className="project-card-wrapper">
+      <article className="project-card-wrapper">
         <img
           className="arch-image"
           onContextMenu={(e) => e.preventDefault()}
@@ -23,8 +23,8 @@ const ThumbnailCard = () => {
             project.
           </p>
         </div>
-      </div>
-      <div className="project-card-wrapper">
+      </article>
+      <article className="project-card-wrapper">
         <img
           className="arch-image"
           onContextMenu={(e) => e.preventDefault()}
@@ -40,8 +40,8 @@ const ThumbnailCard = () => {
             challenging and incredibly rewarding.
           </p>
         </div>
-      </div>
-      <div className="project-card-wrapper">
+      </article>
+      <article className="project-card-wrapper">
         <img
           className="arch-image"
           onContextMenu={(e) => e.preventDefault()}
@@ -57,7 +57,7 @@ const ThumbnailCard = () => {
             intuitive, and user-friendly.
           </p>
         </div>
-      </div>
+      </article>
     </div>
   );
 };
